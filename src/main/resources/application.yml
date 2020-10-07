@@ -1,0 +1,9 @@
+customer:
+      username: Customer Username
+      password: customerPassword
+      url: customerUrl
+--- # this three dashes are file separator
+spring:
+      profiles: es
+customer:
+      username: Customer Username $$$$$$$ Spanish
